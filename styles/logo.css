@@ -19,6 +19,7 @@
     font-weight: 900;
     color: #4E47FF;
 }
+
 .btn-primary {
     font-family: "Raleway", sans-serif;
     color: rgba(255, 255, 255, 1);
@@ -30,17 +31,19 @@
     border: none;
     transition: 0.5s;
 }
+
 .btn-primary:hover {
     color: black;
-    background-color:rgb(167, 216, 69);
+    background-color: rgb(167, 216, 69);
     cursor: pointer;
     font-size: 17px;
 }
-.section-title{
+
+.section-title {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     line-height: 120%;
-    color: rgba(0, 0, 0, 1);
+    color: rgba(37, 36, 50, 1);
 }
 
 * {
@@ -84,29 +87,67 @@ nav h2 {
     color: #252432;
     margin-bottom: 37px;
 }
+
 /* main style */
-main{
+main {
     width: 1140px;
     margin: 0 auto;
 }
+
 /* action section */
-.action{
+.action {
     display: flex;
     gap: 220px;
     align-items: center;
-    /* height: 328px; */
     font-family: "Raleway", sans-serif;
     margin-top: 116px;
 }
-.action .action-descriptions .section-title{
-    font-size:42px;
+
+.action .action-descriptions .section-title {
+    font-size: 42px;
     margin-bottom: 23px;
 }
-.action .action-descriptions .section-descrip{
+
+.action .action-descriptions .section-descrip {
     color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
     margin-bottom: 23px;
 }
-.action img{
+
+.action img {
     border-radius: 48px;
+}
+
+/* productive user */
+.productive-users {
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin-top: 116px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.productive-users .section-title {
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+.user-state {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.productive-users .user-state .data h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.productive-users .user-state .data p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
