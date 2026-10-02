@@ -46,6 +46,13 @@
     color: rgba(37, 36, 50, 1);
 }
 
+.section-subtitle {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -174,13 +181,6 @@ main {
     margin-bottom: 20px;
 }
 
-.cta-section .cta-description {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
-}
-
 .cta-section .btn-primary {
     margin-bottom: 20px;
 }
@@ -196,14 +196,12 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-
 .contact .contact-content h1 {
     font-family: "Raleway", sans-serif;
     font-size: 97px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
 }
-
 .contact form label {
     font-family: "Inter", sans-serif;
     font-size: 18px;
@@ -212,7 +210,6 @@ main {
     display: block;
     margin-bottom: 10px;
 }
-
 .contact form input[type="email"],
 .contact form input[type="text"],
 textarea {
@@ -226,17 +223,55 @@ textarea {
     border: 1px solid rgba(214, 221, 237, 1);
     margin-bottom: 19px;
 }
-
 .contact form input[type="email"],
 .contact form input[type="text"] {
     height: 50px;
 }
-
 textarea {
     height: 115px;
+    resize: none;
 }
 .contact form .btn-primary {
     display: block;
     width: 497px;
-    height:62px;
+    height: 62px;
+    transition: 0.5s;
 }
+.contact form .btn-primary:hover {
+    width: 498px;
+    height: 63px;
+}
+/* footer style */
+footer{
+  width: 1440px; 
+  height: 428px;
+  background-color:rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.footer-contents{
+    width: 531px;
+    height:221px;
+    position: relative;
+    top: 22%;
+    left: 33.33%;
+}
+.footer-contents .logo-style{
+    font-size:100px;
+    margin-bottom:8px;
+}
+.footer-contents .section-subtitle{
+    margin-bottom:20px;
+}
+.footer-contents .links ul{
+list-style: none;
+}
+.footer-contents .links ul a{
+    text-decoration: none;
+}
+.links ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-left:65px;
+}
+
