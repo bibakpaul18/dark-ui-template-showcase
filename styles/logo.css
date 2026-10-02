@@ -53,6 +53,8 @@
 
 body {
     width: 1440px;
+    height: 4043px;
+    background-color:#F5F8FF;
     margin: 0 auto;
 }
 
@@ -130,13 +132,13 @@ main {
 
 .productive-users .section-title {
     font-size: 38px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .user-state {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .productive-users .user-state .data h2 {
@@ -150,4 +152,34 @@ main {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+/* cta-section */
+.cta-section{
+    width:1140px;
+    height: 696.77px;
+    background-color:rgba(255, 255, 255, 1);
+    margin-top:137px;
+    border-radius: 14px;
+   
+}
+.cta-div{
+    text-align: center;
+    position: relative;
+    top: 71px;
+}
+.cta-section .section-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.cta-section .cta-description{
+     font-family: "Inter", sans-serif;
+     font-size: 16px;
+     color: rgba(0, 0, 0, 0.5);
+     margin-bottom: 20px;
+}
+.cta-section .btn-primary{
+    margin-bottom: 20px;
+}
+.cta-section .cta-preview img{
+    border-radius: 48px;
 }
