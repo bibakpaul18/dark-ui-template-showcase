@@ -1,4 +1,3 @@
-
 .inter-normal> {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -20,7 +19,6 @@
     font-weight: 900;
     color: #4E47FF;
 }
-
 .btn-primary {
     font-family: "Raleway", sans-serif;
     color: rgba(255, 255, 255, 1);
@@ -30,14 +28,20 @@
     background-color: #4E47FF;
     border-radius: 10px;
     border: none;
+    transition: 0.5s;
 }
-
 .btn-primary:hover {
     color: black;
-    background-color: yellowgreen;
+    background-color:rgb(167, 216, 69);
     cursor: pointer;
+    font-size: 17px;
 }
-
+.section-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 1);
+}
 
 * {
     margin: 0;
@@ -55,15 +59,18 @@ header {
     background-image: url(../images/Hero-bg.png);
     background-size: contain;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     gap: 909px;
     padding: 50px 150px 0 150px;
 }
+
 nav h2 {
     font-size: 34px;
 }
+
 .banner-content {
     text-align: center;
     position: relative;
@@ -76,4 +83,30 @@ nav h2 {
     font-weight: bold;
     color: #252432;
     margin-bottom: 37px;
+}
+/* main style */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* action section */
+.action{
+    display: flex;
+    gap: 220px;
+    align-items: center;
+    /* height: 328px; */
+    font-family: "Raleway", sans-serif;
+    margin-top: 116px;
+}
+.action .action-descriptions .section-title{
+    font-size:42px;
+    margin-bottom: 23px;
+}
+.action .action-descriptions .section-descrip{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+.action img{
+    border-radius: 48px;
 }
