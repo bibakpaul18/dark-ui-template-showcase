@@ -54,7 +54,7 @@
 body {
     width: 1440px;
     height: 4043px;
-    background-color:#F5F8FF;
+    background-color: #F5F8FF;
     margin: 0 auto;
 }
 
@@ -153,33 +153,90 @@ main {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
 /* cta-section */
-.cta-section{
-    width:1140px;
+.cta-section {
     height: 696.77px;
-    background-color:rgba(255, 255, 255, 1);
-    margin-top:137px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 137px;
     border-radius: 14px;
-   
+
 }
-.cta-div{
+
+.cta-div {
     text-align: center;
     position: relative;
     top: 71px;
 }
-.cta-section .section-title{
+
+.cta-section .section-title {
     font-size: 50px;
     margin-bottom: 20px;
 }
-.cta-section .cta-description{
-     font-family: "Inter", sans-serif;
-     font-size: 16px;
-     color: rgba(0, 0, 0, 0.5);
-     margin-bottom: 20px;
-}
-.cta-section .btn-primary{
+
+.cta-section .cta-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
 }
-.cta-section .cta-preview img{
+
+.cta-section .btn-primary {
+    margin-bottom: 20px;
+}
+
+.cta-section .cta-preview img {
     border-radius: 48px;
+}
+
+/* contact styles */
+.contact {
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact .contact-content h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.contact form label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact form input[type="email"],
+.contact form input[type="text"],
+textarea {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 1);
+    width: 433px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid rgba(214, 221, 237, 1);
+    margin-bottom: 19px;
+}
+
+.contact form input[type="email"],
+.contact form input[type="text"] {
+    height: 50px;
+}
+
+textarea {
+    height: 115px;
+}
+.contact form .btn-primary {
+    display: block;
+    width: 497px;
+    height:62px;
 }
