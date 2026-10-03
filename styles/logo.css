@@ -160,6 +160,65 @@ main {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+/* feedback section */
+.feedback{
+    height:342px;
+    margin-top:137px;
+    text-align: center;
+}
+.feedback .section-title{
+    font-size: 42px;
+    margin-bottom:50px;
+}
+.review-section{
+    height: 195px;
+    width: 318.67px;
+    background-color:rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+.feedback .review-section .star-icons{
+    margin-bottom:24px;
+}
+.feedback .review-section .review-title{
+    font-size: 24px;
+    font-weight: 600;
+    color:#1E1E1E;
+    margin-bottom: 8px;
+}
+.feedback .review-section .review-description{
+    font-size: 16px;
+    font-weight: 400;
+    color:#1E1E1E;
+    margin-bottom: 24px;
+    line-height: 140%;
+}
+.reviewer-details{
+    display: flex;
+    gap: 12px;
+}
+.feedback .review-section .reviewer-details .reviewer{
+    border-radius: 50%;
+}
+.feedback .review-section .reviewer-details .reviewer-description #reviewer-name{
+    font-size: 16px;
+    font-weight:600;
+    color:#757575;
+    margin-bottom:2px;
+}
+.feedback .review-section .reviewer-details .reviewer-description #review-date{
+    font-size: 16px;
+    font-weight:400;
+    color:#B3B3B3;
+}
+.reviews{
+    display: flex;
+    gap: 20px;
+}
+
 
 /* cta-section */
 .cta-section {
@@ -167,7 +226,6 @@ main {
     background-color: rgba(255, 255, 255, 1);
     margin-top: 137px;
     border-radius: 14px;
-
 }
 
 .cta-div {
@@ -195,6 +253,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 .contact .contact-content h1 {
     font-family: "Raleway", sans-serif;
